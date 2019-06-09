@@ -144,7 +144,7 @@ footer {
     margin: 50px 0 25px;
 }
 h1, h2, h3 {
-  color: #000;
+  color: #82E0AA;
   line-height: 1.38em;
   margin: 1.5em 0 .3em;
 }
@@ -178,7 +178,7 @@ p + h2 {
   margin-top: 2em;
 }
 html {
-  background: #f5f5f5;
+  background: #FCF3CF;
   height: 100%;
 }
 code {
@@ -211,6 +211,7 @@ pre {
 
         <hgroup>
            <h1>Welcome to your CakePHP application on OpenShift</h1>
+           <h1>Esto es parte del proyecto de Matrioska Unboxing </h1>
         </hgroup>
 
         <?= $this->fetch('content') ?>
@@ -223,4 +224,3 @@ pre {
 
 </body>
 </html>
-
